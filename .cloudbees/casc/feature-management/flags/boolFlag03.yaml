@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: boolFlag03
+flagType: boolean
+description: testing updated
+labels:
+  - l1
+  - l2
+  - l3
+
+availableValues:
+  - "true"
+
+isPermanent: false
